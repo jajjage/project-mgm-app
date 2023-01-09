@@ -14,7 +14,6 @@ export default function Client() {
       <>
         {!loading && !error && (
           <table className="table table-hover mt-3">
-            <h1 style="color:blue">Hello!!</h1>
             <thead>
               <tr>
                 <th>Name</th>
