@@ -12,4 +12,4 @@ const ClientShcema = new mongoose.Schema({
     },
 });
 
-module.exports = new mongoose.model('Clinet', ClientShcema);
+module.exports = new mongoose.model('Client', ClientShcema);

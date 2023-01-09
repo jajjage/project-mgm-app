@@ -5,8 +5,12 @@ const colors = require('colors')
 require('dotenv').config();
 const port = process.env.PORT || 5000
 const connectDB = require('./config/db')
+const cors = require('cors')
 
 const app = express()
+
+// Enable CORS
+app.use(cors())
 
 //connect to database
 connectDB()
