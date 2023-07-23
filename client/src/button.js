@@ -29,20 +29,6 @@ code {
     border: none;
 }
 
-.btn-primary:hover {
-    background-color: #df3ca6;
-    opacity: 0.9;
-}
-
-.btn-secondary {
-    background-color: #7430f9;
-}
-
-.btn-secondary:hover {
-    background-color: #7430f9;
-    opacity: 0.9;
-}
-
-.icon {
+.
     margin-right: 5px;
 }
